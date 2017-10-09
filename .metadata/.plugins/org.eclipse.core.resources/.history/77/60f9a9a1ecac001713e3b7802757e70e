@@ -1,0 +1,6 @@
+package org.essilor.gridlists;
+import org.essilor.frameworkutilities;
+
+public class GridListsTests extends org.essilor.frameworkutilities.TestCase {
+
+}

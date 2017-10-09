@@ -1,0 +1,40 @@
+package org.essilor.tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+/*
+ * authorname:
+ * createdDate
+ * Purpose:
+ * 
+ * 
+ * 
+ * Usage:
+ * Scope:
+ * ExceptionHandlers:
+ */
+
+
+public class TestCase {
+
+	public static void main(String[] args) {
+
+//		WebDriver driver = new FirefoxDriver();
+//		driver.navigate().to("https://www.igniteui.com/grid/overview");
+//		String strText = driver.getTitle();
+
+		System.setProperty("webdriver.chrome.driver", "");
+		WebDriver driver = new ChromeDriver();
+		
+		if (strText.contains("Data Grid Control")) {
+			System.out.println("APPlication is launched successfully  with title: "+strText);}
+			else {
+				System.out.println("APPlication is not launched successfully  with title: "+strText);
+			}
+		
+	}
+}
+
+

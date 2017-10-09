@@ -1,0 +1,30 @@
+package org.essilor.tests;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+/*
+ * authorname:
+ * createdDate
+ * Purpose:
+ * 
+ * 
+ * 
+ * Usage:
+ * Scope:
+ * ExceptionHandlers:
+ */
+
+
+public class TestCase {
+	
+	public static void main(String[] args) {
+		
+		WebDriver driver = new FirefoxDriver();
+		driver.navigate().to("https://www.igniteui.com/grid/overview");
+		String strText = driver.getTitle();
+		System.out.println("Driver is launched with title: "+strText);
+		
+	}
+
+}

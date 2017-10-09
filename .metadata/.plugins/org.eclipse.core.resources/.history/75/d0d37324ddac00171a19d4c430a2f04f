@@ -1,0 +1,11 @@
+package org.essilor.gridlists;
+
+
+public interface Gridlistselements {
+	
+	//Header Section
+	String GRIDLISTS_HEADER_PRODUCTNAME = "";
+	
+	
+
+}

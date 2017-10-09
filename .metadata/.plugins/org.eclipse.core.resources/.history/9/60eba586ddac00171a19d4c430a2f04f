@@ -1,0 +1,13 @@
+package org.essilor.gridlists;
+
+
+public interface Gridlistselements {
+	
+	//Header Section
+	String GRIDLISTS_HEADER_PRODUCTNAME = "";
+	String GRIDLISTS_HEADER_IMAGE = "";
+	String GRIDLISTS_HEADER_CATEGORY = "";
+	String GRIDLISTS_HEADER_UNITSINSTOCK = "";
+	
+
+}
